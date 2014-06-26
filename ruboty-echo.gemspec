@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Ruboty::Echo::VERSION
   spec.authors       = ["Taiki ONO"]
   spec.email         = ["taiks.4559@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{echo given command.}
+  spec.description   = %q{echo plugin for Ruboty bot framework.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
