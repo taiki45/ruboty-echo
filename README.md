@@ -1,24 +1,16 @@
 # Ruboty::Echo
-
-TODO: Write a gem description
+Ruboty repeats everything...
 
 ## Installation
-
-Add this line to your application's Gemfile:
+Add this line to your ruboty's Gemfile:
 
     gem 'ruboty-echo'
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ruboty-echo
-
 ## Usage
-
-TODO: Write usage instructions here
+```
+> ruboty echo hubot image me deal with it
+hubot image me deal with it
+```
 
 ## Contributing
 
