@@ -12,6 +12,14 @@ Add this line to your ruboty's Gemfile:
 hubot image me deal with it
 ```
 
+You can use ruboty as a timer combination with [ruboty-delay](https://github.com/taiki45/ruboty-delay).
+
+```
+> ruboty delay 1200 ruboty echo Finish 20 min period!
+# ...20 minutes after
+Finish 20 min period!
+```
+
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/ruboty-echo/fork )
