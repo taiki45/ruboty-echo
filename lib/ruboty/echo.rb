@@ -5,7 +5,7 @@ module Ruboty
   module Handlers
     class Echo < Base
       on(
-        /echo\s+(.*)/,
+        /echo\s+(.*)/m,
         name: 'echo',
         description: 'repeat your commnad'
       )
