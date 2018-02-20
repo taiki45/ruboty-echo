@@ -7,7 +7,7 @@ module Ruboty
       on(
         /echo\s+(.*)/m,
         name: 'echo',
-        description: 'repeat your commnad'
+        description: 'repeat your command'
       )
 
       def echo(message)

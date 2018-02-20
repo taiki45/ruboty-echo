@@ -31,4 +31,18 @@ RSpec.describe Ruboty::Handlers::Echo do
       include_examples 'echoes given message'
     end
   end
+
+  describe '#description' do
+    subject do
+      action.description
+    end
+
+    let(:action) do
+      Ruboty.actions.reject(&:hidden?).find { |x| x.name == 'echo' }
+    end
+
+    it 'returns the help message' do
+      expect(subject).to eq('repeat your command')
+    end
+  end
 end
